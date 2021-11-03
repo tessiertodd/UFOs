@@ -1,28 +1,25 @@
 // import the data from data.js
-const tableData = date;
+const tableData = data;
 
 // Reference the HTML table using d3
-var tbody = d3.selecte("tbody");
+var tbody = d3.select("tbody");
 
-
-// Defining a function to build a table
-function buildTable(data)  {
-// First, clear out any existing data
+function buildTable(data) {
+    // First, clear out any existing data
     tbody.html("");
 
     // Next, loop through each object in the data
     // and append a row and cells for each value in the row
-    data.forEach((dataRow) =>  {
+    data.forEach((dataRow) => {
         // Append a row to the table body
         let row = tbody.append("tr");
 
-        // Loop through each fiels in the dataRows and add
+        // Loop through each field in the dataRows and add
         // each value as a table cell (td)
         Object.values(dataRow).forEach((val) => {
             let cell = row.append("td");
-            cell.text(val);
-            }
-        );
+            cell.text(val);            
+        });
     });
 }
 
@@ -47,7 +44,7 @@ function handleClick() {
 }
 
 // Attach an event to listen for the form button
-d3.selectALL("#filter-btn").on("click", handleClick);
+d3.selectAll("#filter-btn").on("click", handleClick);
 
 // Build the table when the page loads
 buildTable(tableData);
