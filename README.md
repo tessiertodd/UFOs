@@ -3,7 +3,8 @@
 ## Project Overview
 We are helping Dana to build a webpage that displays information about UFO sightings using JavaScript along with an HTML index file and CSS style file.  The webpage contains a list of UFO sightings with information around each sighting (date, city, state, country, shape, duration and comments).  This first iteration of the webpage had a filter to allow the user to select only sightings on a certain date - if no filter was used, all the data is displayed.
 
-We have been tasked with building on the webpage we designed together which contained one filter to one that allows users to filter on up to all 5 pieces of information that we have for all sightings.
+We have been tasked with improving the webpage we built together which contained one filter to one that allows users to filter on up to all 5 pieces of information that we have for all sightings.
+
 
 ## Resources
 - Sofware: Visual Studio Code
