@@ -17,11 +17,11 @@ We have been tasked with building on the webpage we designed together which cont
 We needed to adjust both the HTML idex file to add the filters onto the website.
 
 Then we needed to adjust one of the buildTable function to bring in 
-![Table_for_Map_with_Markers](https://github.com/tessiertodd/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png))
+![Table_for_Map_with_Markers]()
 
 Next we need to build a new function in our JavaScript file that would take the filters selected, loop through all the data and return the filtered dataset based on those filters to back to the webpage.
 
-![Table_with_markers_for_itinerary](https://github.com/tessiertodd/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.png)
+![Table_with_markers_for_itinerary]()
 
 # Summary
 Once these filters have been added to the website, this allows the users to much more easily analyze the data and get some insight around the topic of UFO sightings.
